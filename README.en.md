@@ -8,7 +8,7 @@ features [refer to documentation](https://parceljs.org/).
 1. Make sure you have an LTS version of Node.js installed on your computer.
    [Download and install](https://nodejs.org/en/) if needed.
 2. Clone this repository.
-3. Change the folder name from `parcel_start_kit` to the name of your project.
+3. Change the folder name from `parcel_starter` to the name of your project.
 4. Create a new empty GitHub repository.
 5. Open the project in VSCode, launch the terminal and link the project to the
    GitHub repository
