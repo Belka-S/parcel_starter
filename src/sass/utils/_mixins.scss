@@ -1,16 +1,15 @@
-@mixin outline {
+@mixin check {
   outline: solid 1px tomato;
 }
 
-@mixin title {
-  margin-bottom: 20px;
+@mixin outline {
+  transition: outline 100ms;
 
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-
-  color: $primary-bg-color;
+  &:hover,
+  &:focus {
+    outline: 2px solid blue;
+    outline-offset: -1px;
+  }
 }
 
 @mixin retina {
